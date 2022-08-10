@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html id="top">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="img/icon.png">
+        <meta charset="UTF-8">
+        <title>My Portfolio | Jess</title>
+        <link rel="stylesheet" href="light.css"  id="theme-link">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+ 
+    <body style="font-family:Comfortaa;">
+        <!--SWITCH MODE-->
+        <input type="checkbox" id="toggle_checkbox" class="btn-toggle">
+        <label for="toggle_checkbox">
+            <div id="star">
+                <div class="star" id="star-1">★</div>
+                    <div class="star" id="star-2">★</div>
+            </div>
+            <div id="moon"></div>
+        </label>
+
+    <!--SIDE NAV-->
+        <div class="sidenav">
+            <a href="#"><img src="img/me.jpg" alt="Wong Li Jie" width="90%" style="border-radius: 10rem;"></a>
+            <table>
+                <tr>
+                    <td>
+                        <a href="#home">Home</i></a>
+                    </td>
+                    <td style="text-align: center; ">
+                        <i class="fa fa-home" style="font-size:20px;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="#about">About</i></a>
+                    </td>
+                    <td style="text-align: center; ">
+                        <i class="fa fa-info" style="font-size:22px;"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#experience">Experience</i></a>
+                    </td>
+                    <td style="text-align: center; ">
+                        <i class="fa fa-file-text-o"  style="font-size:17px;"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <a href="#contact">Contact</i></a>
+                    </td>
+                    <td style="text-align: center; ">
+                        <i class="fa fa-mobile"  style="font-size:26px;"></i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="main">
+            <!--HOME-->
+            <section class="home" id="home">
+               <h3 style=" font-family:Comfortaa;">Hey, I'm Jess</h3> 
+               <hr>
+               <h5 style=" font-family:Comfortaa;">Welcome to my portfolio website.</h5>
+               <p>Currently am pursuing my degree at UTM, majoring in computer science. <br>
+                I have experience in using C++ and Python for programming. <br> 
+                Web dev and AI are my interests where I spend time to do some related projects with friends.</p>
+                <h5 style=" font-family:Comfortaa;">Nice to meet you :D</h5> 
+            </section>
+
+            <!--ABOUT-->
+            <section class="about" id="about">
+                <h3><strong>About</strong> </h3>
+                <div class="box-container">
+                    <div class="box">
+                        <img class="image" src="img/school_gallery.jpg" alt="">
+                        <div class="content">
+                            <img src="img/school.jpg" style="height: 10rem; width: 10rem" alt="">
+                            <h4><strong>Education</strong></h4>
+                            <ul style=" text-align: left;">
+                                <li><strong>[ 2015 - 2019 ]</strong>
+                                    <ul>
+                                        <li>SMK Taman Bukit Maluri | <em>Form 1 - 5</em></li>
+                                    </ul>
+                                </li>    
+                                <li><strong>[ 2020 - 2021 ]</strong>
+                                    <ul>
+                                        <li>UTM@SPACE | <em>Foundation in Life Science </em></li>
+                                    </ul>
+                                </li>
+                                <li><strong>[ 2021 - current ]</strong>
+                                    <ul>
+                                        <li>Universiti Teknologi Malaysia | <em>Bachelor of Computer Science (Software Engineering) </em></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+             
+                    <div class="box">
+                        <img class="image" src="img/skill_gallery.jpg" alt="">
+                        <div class="content">
+                            <img src="img/skill.jpg" style="height: 8rem; width: 8rem; border-radius: 100%;" alt="">
+                            <h4><strong>Skills</strong></h4>
+                            <div class="container">
+                                <div class="bar back upperintermediate" data-skill="C++"></div>
+                                <div class="bar mid basic" data-skill="Python"></div>
+                                <div class="bar back intermediate" data-skill="HTML&CSS"></div>
+                                <div class="bar front learning" data-skill="JavaScript"></div>
+                                <div class="bar middle advanced" data-skill="MicrosoftOffice"></div>
+                            
+                              </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img class="image" src="img/interest_gallery.jpg" alt="">
+                        <div class="content">
+                            <img src="img/interest.jpg" style="height: 10rem; width: 10rem" alt="">
+                            <h4><strong>Interest</strong></h4> 
+                            <table style="width:100% ;">
+                                <tr>
+                                    <td style="width: 15%; text-align: right; padding:9px 10px 6px 10px;">📚</td>
+                                    <td style="width: 50%; text-align: center;">Reading</td>
+                                    <td style="color: red; text-align:left;">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 15%; text-align: right; padding:6px 10px;">✈️</td>
+                                    <td style="text-align: center;"> Travelling</td>
+                                    <td style="color: red; text-align:left;">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 15%; text-align: right; padding:6px 10px;">🎶</td>
+                                    <td style="text-align: center;">Music</td>
+                                    <td style="color: red; text-align:left;">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 15%; text-align: right; padding:6px 10px;">🎥</td>
+                                    <td style="text-align: center;">Movies & K-Drama</td>
+                                    <td style="color: red; text-align:left;">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 15%; text-align: right; padding:5px 10px;">🎤</td>
+                                    <td style="text-align: center;">Singing</td>
+                                    <td style="color: red; text-align:left;">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+
+                            </table>   
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img class="image" src="img/language_gallery.jpg" alt="">
+                        <div class="content">
+                            <img src="img/language.jpg" style="height: 8rem; width: 8rem" alt="">
+                            <h4><strong>Language Profieciency</strong></h4>
+                            <table style="width: 100%; text-align: left; padding:10px 0px;">
+                                <tr>
+                                    <td style="width: 25%; height: 41px;">English</td>
+                                    <td>
+                                        <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-red w3-round-xlarge" style="width:98%">Fluent</div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="width: 25%; height: 41px;">Malay</td>
+                                    <td>
+                                        <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-orange w3-round-xlarge" style="width:85%">Conversant</div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="width: 25%; height: 41px;">Mandarin</td>
+                                    <td>
+                                        <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-yellow w3-round-xlarge" style="width:100%">Native Speaker</div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="width: 25%; height: 41px;">Cantonese</td>
+                                    <td>
+                                        <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-green w3-round-xlarge" style="width:70%">Conversant</div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="width: 25%; height: 41px;">Korean</td>
+                                    <td>
+                                        <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-blue w3-round-xlarge" style="width:30%">Basic</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!--EXPERIENCE-->
+            <section class="experience" id="experience" style="font-family: Comfortaa;">
+                <h3><strong>Experience</strong> </h3>
+                <div class="accordion horizontal">
+                    <section id="club">
+                        <h2><a href="#club">Clubs & Societies</a></h2>
+                        <p style="font-size: 12px;">
+                            <strong>Member of Prefectorial Board / 2015-2019 </strong><br>
+                            <i> the rules and regulations of the school and observe the school rules at all times ; 
+                            Be cooperative, helpful, well-mannered, trustworthy, and responsible ; 
+                            Be willing to take on extra responsibilities</i> <br>
+                            <strong>Student Cadet of St. John Ambulance / 2015-2019 </strong><br>
+                            <i>To organize first aid, nursing and marching training ;
+                            Be volunteering in community service ;
+                            Take first aid duty in school's events sunch as Sports Day </i> <br>
+                            <strong>Student Reporter of Sin Chew Daily / 2017-2021</strong> <br>
+                            <i>Work in different departments to oraganize different events ;
+                            Dedicated to produce meaningful content to be published on news </i> <br>
+                            <strong>Microsoft Learn Student Ambassadors / 2022-current </strong> <br>
+                            <i>Commited in helping fellow students, create robust tech communities and develop technical and career skills for the future </i>
+                        </p>
+                    </section>
+                    <section id="award">
+                        <h2><a href="#award">Awards & Cert.</a></h2>
+                        <p style="text-align: center;">
+                            <img src="img/upperdivider.jpg" alt="" width="40%" style="text-align: center;"> <br> 
+                            <strong>Straight A's SPM scorer in 2019</strong><br> 
+                            <strong>Silver Medal in Kangaroo Math Competition (KMC 2019)</strong> <br>
+                            <strong>YTM Scholar 2021/22</strong> <br><br>
+                            <img src="img/lowerdivider.jpg" alt=""  width="40%">
+                        </p>
+
+                    </section>
+                    <section id="work">
+                        <h2><a href="#work">Work Experience</a></h2>
+                        <p style="font-size:12px; text-align: center ;padding:10px 100px;"><strong>PartTime Tutor</strong>
+                            | <i> A+ Tuition Centre</i> <br>
+                        Keep students on-task with proactive behaviour modification and positive reinforcement strategies ;
+                        To prepare learning material, quizzes, and write reports regarding students' performance ;</p>
+
+                        <p style="font-size:12px; text-align: center ;padding:10px 100px;"><strong>Intern</strong>
+                            | <i> KidoCode</i> <br>
+                            Coaching kids and teens through the KidoCode syllabus and helping them over time management and problem solving skills ;
+                            To participate in training activities and developing projects energetically </p>
+                        </section>
+                  </div>
+            </section>
+            
+            <!--CONTACT-->
+            <section class="contact" id="contact">
+                <h3><strong>Contact</strong></h3>
+                <div style="border-width: 100%; text-align: center;">
+                    <img src="img/contact.jpg" alt="" width="10%" style="padding: 0 0 30px 0;">
+                </div>
+
+                <table class="contact-table" style="width:50%; ">
+                    <tr>
+                        <td style="text-align: center; color: 	#4267B2; "><i class="fa fa-facebook-square" aria-hidden="true"></i></td>
+                        <td><a href="https://www.facebook.com/people/Jess-Lijie/100005699956899/" class="btn" target="_blank" style="border:2px solid #ff4545; width: 120px;" id="text">Facebook</a></td>
+                        <td style="text-align: center; color: #0088CC"><i class="fa fa-telegram" aria-hidden="true"></i></td>
+                        <td><a href="https://t.me/jess_lijie" class="btn" target="_blank" style="border:2px solid #ff4545; width: 120px;" id="text"> Telegram</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdb997 5%, #fd5949 45%, #ff37c0 60%, #285AEB 90%);
+                        -webkit-background-clip: text; background-clip: text;-webkit-text-fill-color: transparent; "><i class="fa fa-instagram" aria-hidden="true"></i></td>
+                        <td><a href="https://www.instagram.com/jess_lijie/" class="btn" target="_blank" style="border:2px solid #ff4545; width: 120px;" id="text">Instagram</a></td>
+                        <td style="text-align: center; color: #ad5c41"><i class="fa fa-github" aria-hidden="true"></i></td>
+                        <td><a href="https://github.com/jessLijie" class="btn" target="_blank" style="border:2px solid #ff4545; width: 120px;" id="text">GitHub</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center; color: #0072b1;"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></i></td>
+                        <td><a href="https://www.linkedin.com/in/wong-li-jie-bba407229/" class="btn" target="_blank" style="border:2px solid #ff4545; width: 120px;" id="text">LinkedIn</a></td>
+                        <td style="text-align: center; color: rgb(120, 120, 120)"><i class= "fa fa-envelope-open" aria-hidden="true"></i></td>
+                        <td><a href="mailto:wong.lijie@gmail.com" class="btn" target="_blank" style="border:2px solid #ff4545; width: 120px;" id="text">Email</a></td>
+                    </tr>
+                </table>
+
+                <div style="margin: 10px auto; text-align: center;">
+                    <img src="img/arrow.gif" alt="" width="10%">
+                    <a href="WongLiJie_CV.pdf" class="btn" target="_blank" style="border:2px solid #ff4545; width: 300px;" download>Download my CV here !</a>
+                </div>
+
+            </section>
+         
+        </div>
+
+        <!--SCROLL BACK TOP-->
+        <a href="#top" id="scroll-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>  
+    </body>
+</html>
