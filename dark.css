@@ -144,7 +144,7 @@ label
 .main {
   padding: 80px 50px 20px 220px;
   width: 100%;
-  background-image: url("../kidocode/img/starry.jpg") ;
+  background-image: url("../img/starry.jpg") ;
   background-color: #000;
   background-attachment: fixed;
   background-size: cover;
@@ -152,7 +152,7 @@ label
 
 .main .home{
   border:4px dashed white;
-  background: url(../kidocode/img/home-bg-dark.jpg) no-repeat;
+  background: url(../img/home-bg-dark.jpg) no-repeat;
   background-size: cover;
   text-align: left;
   color: white;
